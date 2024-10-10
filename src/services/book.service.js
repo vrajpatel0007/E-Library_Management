@@ -1,4 +1,4 @@
-const book = require("../models/book.modal")
+const book = require("../models/book.model")
 
 const createbook = async (body) => {
     return await book.create(body);
